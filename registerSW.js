@@ -1,1 +1,1 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/laz-inventory/sw.js', { scope: '/laz-inventory/' })})}
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/laz-inventory-preview/sw.js', { scope: '/laz-inventory-preview/' })})}
